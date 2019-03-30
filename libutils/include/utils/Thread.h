@@ -48,7 +48,7 @@ public:
 
     // Start the thread in threadLoop() which needs to be implemented.
     // NOLINTNEXTLINE(google-default-arguments)
-    virtual status_t    run(    const char* name,
+    virtual status_t    run(    const char* name = nullptr,
                                 int32_t priority = PRIORITY_DEFAULT,
                                 size_t stack = 0);
     
