@@ -5,8 +5,6 @@ cc_library {
     srcs: [
         "autosuspend.c",
         "autosuspend_wakeup_count.cpp",
-        "autosuspend_autosleep.c",
-        "autosuspend_earlysuspend.c",
     ],
     export_include_dirs: ["include"],
     local_include_dirs: ["include"],
